@@ -8,7 +8,7 @@ pipeline {
          stage ("cloning") {
          
              steps{
-             sh "[ -d 'the-example-app.nodejs' ] && rm -rf the-example-app.nodejs"
+             
                  echo "cloning"
                 sh "git clone https://github.com/med363/the-example-app.nodejs.git"
              }
